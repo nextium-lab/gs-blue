@@ -6,7 +6,7 @@ export function Informacoes() {
     return(
         <section className="w-full" id="mais-informacoes">
             <div className="flex flex-col gap-10 container py-10">
-            <div className="grid grid-cols-1 lg:grid-cols-2 items-center py-5 mt-20 gap-7">
+            <div className="grid grid-cols-1 lg:grid-cols-2 items-center py-5 gap-7">
                 <div className="flex flex-col gap-3 lg:order-1">
                 <span className="font-medium text-primary">Realtime Monitoring</span>
                 <h3 className="text-2xl lg:text-3xl">Empower your Decisions whith Real-Time Monitoring</h3>
