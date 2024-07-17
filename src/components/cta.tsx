@@ -13,7 +13,7 @@ export function Cta() {
                         <p className="lg:w-3/4">Experimente o poder do monitoramento em tempo real, aprendizado colaborativo e otimização estratégica. Não perca! Assuma o controle do seu destino financeiro.</p>
                         <div>
                             <Button asChild variant={"secondary"} className="rounded-full">
-                                <Link href="/">Começar agora</Link>
+                                <Link href="https://wa.me/556598033659" target="_blank">Começar agora</Link>
                             </Button>
                         </div>
                     </div>

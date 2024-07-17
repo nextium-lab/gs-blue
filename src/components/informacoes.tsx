@@ -10,7 +10,7 @@ export function Informacoes() {
                 <div className="flex flex-col gap-3 lg:order-1">
                 <span className="font-medium text-primary">Realtime Monitoring</span>
                 <h3 className="text-2xl lg:text-3xl">Empower your Decisions whith Real-Time Monitoring</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s</p>
                 <div>
                     <Button asChild variant={"outline"} className="rounded-full border-primary">
                         <Link href={"/"}>Read More</Link>
@@ -26,7 +26,7 @@ export function Informacoes() {
                 <div className="flex flex-col gap-3">
                 <span className="font-medium text-primary">Realtime Monitoring</span>
                 <h3 className="text-2xl lg:text-3xl">Empower your Decisions whith Real-Time Monitoring</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s</p>
                 <div>
                     <Button asChild variant={"outline"} className="rounded-full border-primary">
                         <Link href={"/"}>Read More</Link>

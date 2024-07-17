@@ -1,4 +1,3 @@
-import { ModeToggle } from "@/components/mode-toggle";
 
 import { Menu, MessageCircle } from "lucide-react";
 
@@ -46,7 +45,7 @@ export function Header(){
                 <div className="flex gap-3">
                     <div className="hidden lg:block">
                         <Button asChild variant={"default"} className="rounded-full">
-                            <Link href={"/"}>
+                            <Link href={"https://wa.me/556598033659"} target="_blank">
                                 <MessageCircle size={15} className="mr-3"/> Contato
                             </Link>
                         </Button>
@@ -67,7 +66,7 @@ export function Header(){
                                         </Button>
                                     ))}
                                     <Button asChild variant={"default"}>
-                                        <Link href={"/"}>
+                                        <Link href={"https://wa.me/556598033659"}>
                                             <MessageCircle size={15} className="mr-3"/> Contato
                                         </Link>
                                     </Button>

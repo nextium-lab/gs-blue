@@ -14,7 +14,7 @@ export function Hero(){
                     </div>
                     <div className="flex flex-grow justify-center md:justify-start gap-5">
                         <Button asChild variant={"default"} className="rounded-full">
-                            <Link href={"/"}><CircleArrowOutUpRight size={20} className="mr-3" /> Comece Agora</Link>
+                            <Link href={"https://wa.me/556598033659"} target="_blank"><CircleArrowOutUpRight size={20} className="mr-3" /> Comece Agora</Link>
                         </Button>
                         <Button asChild variant={"secondary"} className="rounded-full">
                             <Link href={"/"}>Consulta Gratuita</Link>
