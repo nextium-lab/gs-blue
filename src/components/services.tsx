@@ -22,7 +22,7 @@ const SERVICES = [
     },
     {
         title: "Plataforma de Trading",
-        descriptions: "Utilize nossa plataforma de última geração para executar suas negociações com eficiência.",
+        descriptions: "Plataforma de última geração para executar suas negociações com eficiência.",
         icon: Monitor, // Ícone para Plataforma de Trading
     },
 ];
