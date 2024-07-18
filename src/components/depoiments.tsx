@@ -7,38 +7,33 @@ import { Star } from "lucide-react";
 
 const DEPOIMENTS = [
     {
-        title: "Diverse Investment Options",
-        descriptions: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        name: "John Doe",
-        obs: "Analyst",
+        descriptions: "Investir com a GS BLUE foi uma das melhores decisões financeiras que já tomei. A equipe é extremamente profissional e os retornos têm sido incríveis.",
+        name: "João Silva",
+        obs: "Engenheiro de Software",
         imag: "https://github.com/shadcn.png",
     },
     {
-        title: "Diverse Investment Options",
-        descriptions: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        name: "John Doe",
-        obs: "Analyst",
+        descriptions: "Como empreendedor, encontrei na GS BLUE uma forma segura e eficiente de diversificar meus investimentos. A mentoria oferecida é um diferencial enorme.",
+        name: "Mariana Lopes",
+        obs: "Founder",
         imag: "https://github.com/shadcn.png",
     },
     {
-        title: "Diverse Investment Options",
-        descriptions: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        name: "John Doe",
-        obs: "Analyst",
+        descriptions: "A GS BLUE me proporcionou uma nova perspectiva sobre investimentos. A transparência e o suporte da equipe me deram a confiança que eu precisava para começar.",
+        name: "Carlos Mendes",
+        obs: "Médico",
         imag: "https://github.com/shadcn.png",
     },
     {
-        title: "Diverse Investment Options",
-        descriptions: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        name: "John Doe",
-        obs: "Analyst",
+        descriptions: "Desde que me tornei cotista da GS BLUE, meus investimentos se tornaram muito mais estratégicos. A equipe é muito atenciosa e sempre disponível para tirar dúvidas.",
+        name: "Ana Pereira",
+        obs: "Consultora Financeira",
         imag: "https://github.com/shadcn.png",
     },
     {
-        title: "Diverse Investment Options",
-        descriptions: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        name: "John Doe",
-        obs: "Analyst",
+        descriptions: "Eu estava procurando maneiras de alavancar minhas finanças e a GS BLUE superou todas as minhas expectativas. Recomendo a todos que buscam segurança e bons retornos.",
+        name: "Lucas Almeida",
+        obs: "Analista de Marketing",
         imag: "https://github.com/shadcn.png",
     },
 
@@ -50,9 +45,9 @@ export function Depoiments(){
             <div className="container py-10">
                 <div className="flex flex-col gap-3 py-10 lg:text-center text-white">
                     <div>
-                        <Badge variant={"default"}><Star size={20} className="bg-white rounded-full mr-3 -ml-2 p-1 fill-primary stroke-primary"/> Rated 4.9 / 5</Badge>
+                        <Badge variant={"default"}><Star size={20} className="bg-white rounded-full mr-3 -ml-2 p-1 fill-primary stroke-primary"/> Avaliado 4.9 / 5</Badge>
                     </div>
-                    <h3 className="text-2xl lg:text-3xl font-medium"> Histórias reais, experiências genuínas, depoimentos confiáveis</h3>
+                    <h3 className="text-2xl lg:text-3xl font-medium"> Experiências genuínas, depoimentos confiáveis</h3>
                     <span className="lg:text-center"> Na GS Blue, acreditamos que a plataforma é crucial para sua jornada financeira. Escolha a GS Blue para uma experiência de investimento superior.</span>
                 </div>
                 <div className="flex justify-center py-10">
@@ -66,7 +61,6 @@ export function Depoiments(){
                                                 <Image src={"/bg/aspas.png"} alt="aspas" width={30} height={30}/>
                                             </CardHeader>
                                             <CardContent >
-                                                <h4 className="text-lg font-semibold truncate">{depoiments.title}</h4>
                                                 <p>{depoiments.descriptions}</p>
                                             </CardContent>
                                             <CardFooter className="flex gap-3">

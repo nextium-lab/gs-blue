@@ -16,9 +16,6 @@ export function Hero(){
                         <Button asChild variant={"default"} className="rounded-full">
                             <Link href={"https://wa.me/556598033659"} target="_blank"><CircleArrowOutUpRight size={20} className="mr-3" /> Comece Agora</Link>
                         </Button>
-                        <Button asChild variant={"secondary"} className="rounded-full">
-                            <Link href={"/"}>Consulta Gratuita</Link>
-                        </Button>
                     </div>
                 </div>
                 <div className="flex items-center justify-center mt-10">
