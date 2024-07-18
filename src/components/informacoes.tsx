@@ -2,6 +2,10 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import { Badge } from "./ui/badge";
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger, } from "@/components/ui/dialog"
+import { CircleArrowOutUpRight } from "lucide-react";
+import { Separator } from "./ui/separator";
+  
 
 export function Informacoes() {
     return(
@@ -16,7 +20,7 @@ export function Informacoes() {
                         <p>A <span className="text-primary">GS BLUE Corporation</span> nasceu com a missão de trazer um conceito financeiro novo, abrindo horizontes e formando uma cultura inovadora, sempre trazendo mentoria aos seus cotistas.</p>
                     </div>
                     <div>
-                        <Button asChild variant={"outline"} className="rounded-full border-primary">
+                        <Button asChild variant={"outline"} className="rounded-full">
                             <Link href={"https://wa.me/556598033659"} target="_blank">Saber mais</Link>
                         </Button>
                     </div>
@@ -35,9 +39,35 @@ export function Informacoes() {
                         <p>A GS BLUE Corporation oferece cotas de investimentos, firmadas em contratos, para atender você de forma eficiente, segura e acessível.</p>
                     </div>
                     <div>
-                        <Button asChild variant={"outline"} className="rounded-full border-primary">
-                            <Link href={"https://wa.me/556598033659"} target="_blank">Torne-se um cotista</Link>
-                        </Button>
+                        <Dialog>
+                            <DialogTrigger asChild>
+                                <Button variant="outline" className="rounded-full"><CircleArrowOutUpRight size={20} className="mr-3"  />Mercados atuantes</Button>
+                            </DialogTrigger>
+                            <DialogContent>
+                                <DialogHeader>
+                                    <DialogTitle>Mercados atuantes</DialogTitle>
+                                    <Separator/>
+                                    <DialogDescription className="flex flex-col gap-2">
+                                        <p>Petro</p>
+                                        <Separator/>
+                                        <p>Vale</p>
+                                        <Separator/>
+                                        <p>Ibovespa</p>
+                                        <Separator/>
+                                        <p>Dólar</p>
+                                        <Separator/>
+                                        <p>Minério</p>
+                                        <Separator/>
+                                        <p>Soja</p>
+                                        <Separator/>
+                                        <p>Arroba</p>
+                                        <Separator/>
+                                        <p>Ouro</p>                                        
+                                    </DialogDescription>
+                                </DialogHeader>
+                            </DialogContent>
+                        </Dialog>
+
                     </div>
                 </div>
                 <div className="flex lg:justify-end justify-center">
