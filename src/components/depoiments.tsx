@@ -10,31 +10,31 @@ const DEPOIMENTS = [
         descriptions: "Investir com a GS BLUE foi uma das melhores decisões financeiras que já tomei. A equipe é extremamente profissional e os retornos têm sido incríveis.",
         name: "João Silva",
         obs: "Engenheiro de Software",
-        imag: "https://github.com/shadcn.png",
+        imag: "/avatars/joao.png",
     },
     {
         descriptions: "Como empreendedor, encontrei na GS BLUE uma forma segura e eficiente de diversificar meus investimentos. A mentoria oferecida é um diferencial enorme.",
         name: "Mariana Lopes",
         obs: "Founder",
-        imag: "https://github.com/shadcn.png",
+        imag: "/avatars/mariana.png",
     },
     {
         descriptions: "A GS BLUE me proporcionou uma nova perspectiva sobre investimentos. A transparência e o suporte da equipe me deram a confiança que eu precisava para começar.",
         name: "Carlos Mendes",
         obs: "Médico",
-        imag: "https://github.com/shadcn.png",
+        imag: "/avatars/carlos.png",
     },
     {
         descriptions: "Desde que me tornei cotista da GS BLUE, meus investimentos se tornaram muito mais estratégicos. A equipe é muito atenciosa e sempre disponível para tirar dúvidas.",
         name: "Ana Pereira",
         obs: "Consultora Financeira",
-        imag: "https://github.com/shadcn.png",
+        imag: "/avatars/ana.png",
     },
     {
         descriptions: "Eu estava procurando maneiras de alavancar minhas finanças e a GS BLUE superou todas as minhas expectativas. Recomendo a todos que buscam segurança e bons retornos.",
         name: "Lucas Almeida",
         obs: "Analista de Marketing",
-        imag: "https://github.com/shadcn.png",
+        imag: "/avatars/lucas.png",
     },
 
 ];
